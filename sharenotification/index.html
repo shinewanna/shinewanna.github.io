@@ -35,33 +35,13 @@
   </div>
   <!--End Init Loading-->
   
-  <!--Start Firebase SDK-->
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-messaging.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
-  <!--End Firebase SDK-->
-  <!--Start Facebook SDK-->
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
-  <!--End Facebook SDK-->
-  
-  <script>
-    // Initialize Firebase
-    firebase.initializeApp({
-        apiKey: "AIzaSyDQ1Kj0M_6CMnt7PvG9dJdiGU0x6qqsc0g",
-        authDomain: "share-notification-abc3f.firebaseapp.com",
-        projectId: "share-notification-abc3f",
-        storageBucket: "share-notification-abc3f.appspot.com",
-        messagingSenderId: "690191939123",
-        appId: "1:690191939123:web:7f2f83a8082e64b63f5546",
-        measurementId: "G-XWL1BV5FGF"
-    });
-  </script>
+
+
 
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener("load", function () {
-        navigator.serviceWorker.register("/firebase-messaging-sw.js");
+        navigator.serviceWorker.register('flutter_service_worker.js?v=4145557627');
       });
     }
   </script>
