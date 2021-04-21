@@ -36,16 +36,16 @@
   <!--End Init Loading-->
   
   <!--Start Firebase SDK-->
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+  <!-- <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-messaging.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script> -->
   <!--End Firebase SDK-->
   <!--Start Facebook SDK-->
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
   <!--End Facebook SDK-->
-
-  <script>
+  
+  <!-- <script>
     // Initialize Firebase
     firebase.initializeApp({
         apiKey: "AIzaSyDQ1Kj0M_6CMnt7PvG9dJdiGU0x6qqsc0g",
@@ -56,12 +56,13 @@
         appId: "1:690191939123:web:7f2f83a8082e64b63f5546",
         measurementId: "G-XWL1BV5FGF"
     });
-  </script>
+  </script> -->
 
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener("load", function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=3455612301');
+      //  navigator.serviceWorker.register("/firebase-messaging-sw.js");
+      navigator.serviceWorker.register('flutter_service_worker.js?v=1681825422');
       });
     }
   </script>
