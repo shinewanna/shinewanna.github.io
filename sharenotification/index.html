@@ -44,7 +44,7 @@
   <!--Start Facebook SDK-->
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
   <!--End Facebook SDK-->
-  
+
   <script>
     // Initialize Firebase
     firebase.initializeApp({
@@ -61,7 +61,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener("load", function () {
-        navigator.serviceWorker.register("/firebase-messaging-sw.js");
+        navigator.serviceWorker.register('flutter_service_worker.js?v=3455612301');
       });
     }
   </script>
