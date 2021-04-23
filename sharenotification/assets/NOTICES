@@ -887,7 +887,6 @@ connectivity
 google_sign_in_platform_interface
 package_info
 path_provider_macos
-path_provider_windows
 shared_preferences
 shared_preferences_platform_interface
 
@@ -8370,6 +8369,7 @@ google_fonts
 --------------------------------------------------------------------------------
 google_sign_in
 in_app_purchase
+path_provider_windows
 
 Copyright 2013 The Flutter Authors. All rights reserved.
 
