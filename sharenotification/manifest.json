@@ -1,11 +1,11 @@
 {
-    "name": "share_notification",
-    "short_name": "share_notification",
+    "name": "Share Notification",
+    "short_name": "Share Notification",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Share all android notifications and monitor with Share Notification.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
