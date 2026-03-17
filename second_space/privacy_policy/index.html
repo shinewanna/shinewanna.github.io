@@ -1,560 +1,439 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Wr
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Second Space: Launcher</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --surface: #12121a;
+      --surface2: #1a1a26;
+      --border: #2a2a3d;
+      --accent: #6c63ff;
+      --accent2: #4ecdc4;
+      --text: #e8e8f0;
+      --text-muted: #8888aa;
+      --text-dim: #555570;
+      --success: #4ecdc4;
+      --radius: 12px;
+    }
 
-pasted
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-My app doesn't collect any user data and it's launcher app, update it
+    html {
+      scroll-behavior: smooth;
+    }
 
-9:15 AM
-Here's the updated Privacy Policy that accurately reflects your app as a local launcher with zero data collection:
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+      min-height: 100vh;
+    }
 
-Privacy Policy for Second Space: Launcher
+    /* Background grid */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(108, 99, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(108, 99, 255, 0.03) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+      z-index: 0;
+    }
 
-Privacy Policy
-Last updated: February 20, 2026
+    .wrapper {
+      position: relative;
+      z-index: 1;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 60px 24px 100px;
+    }
 
-Overview
-Second Space: Launcher is a local Android launcher app. We do not collect, store, transmit, or share any personal data or usage data whatsoever. Everything stays on your device.
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 64px;
+      animation: fadeUp 0.6s ease both;
+    }
 
-No Data Collection
-Second Space: Launcher does not collect:
+    .app-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 16px 6px 10px;
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 28px;
+      font-family: 'DM Mono', monospace;
+    }
 
-Personal information of any kind
-Usage data or analytics
-Device identifiers or IP addresses
-Location data
-App usage statistics
-Contacts, messages, or media
-Biometric data (fingerprint/face ID is processed locally by your device only)
-Any other data of any kind
-All data — including your space settings, hidden apps list, lock type, gestures, and layout preferences — is stored locally on your device only using local storage (Hive). Nothing is ever sent to any server.
+    .app-badge .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent2);
+      box-shadow: 0 0 8px var(--accent2);
+      animation: pulse 2s ease infinite;
+    }
 
-Permissions
-Second Space: Launcher requests only the permissions necessary to function as a home screen launcher:
+    @keyframes pulse {
 
-Permission	Purpose
-Query All Packages	To display installed apps on your home screen and app drawer
-Set Wallpaper	To allow you to set custom wallpapers
-Receive Boot Completed	To restore launcher after device restart
-Biometric / Fingerprint	Processed locally by your device to unlock spaces — never transmitted
-System Alert Window	For floating space switch button display
-No permission is used to collect or transmit data.
-
-Third Party Services
-Second Space: Launcher does not use:
-
-Analytics tools (no Firebase, no Google Analytics)
-Advertising SDKs (the app is 100% ad-free)
-Crash reporting services
-Any third party SDKs that collect data
-Children's Privacy
-Our app is safe for all ages. Since we collect no data at all, there is no risk of collecting data from children under the age of 13.
-
-Security
-All your settings, space configurations, and preferences are stored locally on your device. We have no access to your data because we never receive it in the first place.
-
-Your Second Space lock (PIN, Pattern, Password, Fingerprint, or Face ID) is handled entirely on-device and is never transmitted anywhere.
-
-Changes to This Privacy Policy
-We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated date. We encourage you to review this page periodically.
-
-Contact Us
-If you have any questions about this Privacy Policy, please contact us:
-
-📩 Email: shinewanna97@gmail.com
-
-Want me to also generate this as a proper hosted HTML page or a PDF document you can upload to the Play Store?
-
-Give me html file
-
-9:16 AM
-
-Viewed 2 files, created a file, read a file
-Viewed 2 files, created a file, read a file
-Here's your Privacy Policy HTML file! It features a clean dark theme matching your app's aesthetic with:
-
-Zero collection banner front and center
-9 clearly labeled sections with section numbers
-Permission table showing each Android permission and its purpose
-No-data grid visually listing everything you don't collect
-Mobile responsive layout
-Your contact email in a styled card at the bottom
-Ready to host on GitHub Pages, Firebase Hosting, or any static host — then link it in your Play Store listing.
-
-Privacy policy
-Code · HTML 
-It uses Third party firebase to collect analytics and crashlyitcs
-
-RECEIVE_BOOT_COMPLETEDRestore launcher settings after device restartUSE_BIOMETRICUnlock spaces using fingerprint or Face ID — processed locally onlySYSTEM_ALERT_WINDOWDisplay the floating space switch button on your screen
-
-Remove these three
-
-9:19 AM
-
-Edited 2 files
-Edited 2 files
-Now also update the zero banner and no-data section to reflect Firebase usage:
-
-
-Edited 4 files, read a file
-Edited 4 files, read a file
-Updated! Here's what changed:
-
-Third Party section — now accurately discloses Firebase Analytics and Crashlytics with clear explanations of what each collects and a link to Google's Privacy Policy
-Removed the three permissions (RECEIVE_BOOT_COMPLETED, USE_BIOMETRIC, SYSTEM_ALERT_WINDOW) from the table
-Banner & Overview — updated to reflect that anonymous technical data is collected via Firebase, not personal data
-Privacy policy
-Code · HTML 
-remove Crash reports from What We Do
-
-9:20 AM
-
-Edited a file, read a file
-Edited a file, read a file
-Done! " Crash reports" has been removed from the "What We Do & Don't Collect" grid. Privacy policy Code · HTML Want to
-    be notified when Claude responds? Claude is AI and can make mistakes. Please double-check responses. Privacy policy
-    · HTML Copy <!DOCTYPE html>
-  <html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy — Second Space: Launcher</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap"
-      rel="stylesheet">
-    <style>
-      :root {
-        --bg: #0a0a0f;
-        --surface: #12121a;
-        --surface2: #1a1a26;
-        --border: #2a2a3d;
-        --accent: #6c63ff;
-        --accent2: #4ecdc4;
-        --text: #e8e8f0;
-        --text-muted: #8888aa;
-        --text-dim: #555570;
-        --success: #4ecdc4;
-        --radius: 12px;
+      0%,
+      100% {
+        opacity: 1;
       }
 
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+      50% {
+        opacity: 0.4;
+      }
+    }
+
+    h1 {
+      font-size: clamp(32px, 6vw, 52px);
+      font-weight: 600;
+      letter-spacing: -1.5px;
+      line-height: 1.1;
+      margin-bottom: 16px;
+      background: linear-gradient(135deg, #fff 0%, var(--text-muted) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .header-meta {
+      font-size: 14px;
+      color: var(--text-dim);
+      font-family: 'DM Mono', monospace;
+    }
+
+    /* Zero collection banner */
+    .zero-banner {
+      background: linear-gradient(135deg, rgba(78, 205, 196, 0.08), rgba(108, 99, 255, 0.08));
+      border: 1px solid rgba(78, 205, 196, 0.2);
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      margin-bottom: 48px;
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      animation: fadeUp 0.6s 0.1s ease both;
+    }
+
+    .zero-banner .icon {
+      font-size: 28px;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .zero-banner strong {
+      display: block;
+      color: var(--accent2);
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .zero-banner p {
+      color: var(--text-muted);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    /* Sections */
+    .section {
+      margin-bottom: 48px;
+      animation: fadeUp 0.6s ease both;
+    }
+
+    .section:nth-child(2) {
+      animation-delay: 0.15s;
+    }
+
+    .section:nth-child(3) {
+      animation-delay: 0.2s;
+    }
+
+    .section:nth-child(4) {
+      animation-delay: 0.25s;
+    }
+
+    .section:nth-child(5) {
+      animation-delay: 0.3s;
+    }
+
+    .section:nth-child(6) {
+      animation-delay: 0.35s;
+    }
+
+    .section:nth-child(7) {
+      animation-delay: 0.4s;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
       }
 
-      html {
-        scroll-behavior: smooth;
+      to {
+        opacity: 1;
+        transform: translateY(0);
       }
+    }
 
-      body {
-        background: var(--bg);
-        color: var(--text);
-        font-family: 'DM Sans', sans-serif;
-        font-size: 16px;
-        line-height: 1.75;
-        min-height: 100vh;
-      }
+    .section-label {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
 
-      /* Background grid */
-      body::before {
-        content: '';
-        position: fixed;
-        inset: 0;
-        background-image:
-          linear-gradient(rgba(108, 99, 255, 0.03) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(108, 99, 255, 0.03) 1px, transparent 1px);
-        background-size: 40px 40px;
-        pointer-events: none;
-        z-index: 0;
-      }
+    h2 {
+      font-size: 22px;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+      color: var(--text);
+      margin-bottom: 16px;
+    }
 
-      .wrapper {
-        position: relative;
-        z-index: 1;
-        max-width: 780px;
-        margin: 0 auto;
-        padding: 60px 24px 100px;
-      }
+    p {
+      color: var(--text-muted);
+      font-size: 15px;
+      line-height: 1.8;
+    }
 
-      /* Header */
-      .header {
-        text-align: center;
-        margin-bottom: 64px;
-        animation: fadeUp 0.6s ease both;
-      }
+    p+p {
+      margin-top: 12px;
+    }
 
-      .app-badge {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        background: var(--surface2);
-        border: 1px solid var(--border);
-        border-radius: 999px;
-        padding: 6px 16px 6px 10px;
-        font-size: 13px;
-        color: var(--text-muted);
-        margin-bottom: 28px;
-        font-family: 'DM Mono', monospace;
-      }
+    /* Card */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      margin-top: 16px;
+    }
 
-      .app-badge .dot {
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        background: var(--accent2);
-        box-shadow: 0 0 8px var(--accent2);
-        animation: pulse 2s ease infinite;
-      }
+    /* Permission table */
+    .perm-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+      font-size: 14px;
+    }
 
-      @keyframes pulse {
+    .perm-table thead tr {
+      border-bottom: 1px solid var(--border);
+    }
 
-        0%,
-        100% {
-          opacity: 1;
-        }
+    .perm-table th {
+      text-align: left;
+      padding: 10px 16px;
+      color: var(--text-dim);
+      font-weight: 500;
+      font-family: 'DM Mono', monospace;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
 
-        50% {
-          opacity: 0.4;
-        }
-      }
+    .perm-table td {
+      padding: 14px 16px;
+      color: var(--text-muted);
+      border-bottom: 1px solid rgba(42, 42, 61, 0.5);
+      vertical-align: top;
+    }
 
-      h1 {
-        font-size: clamp(32px, 6vw, 52px);
-        font-weight: 600;
-        letter-spacing: -1.5px;
-        line-height: 1.1;
-        margin-bottom: 16px;
-        background: linear-gradient(135deg, #fff 0%, var(--text-muted) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-      }
+    .perm-table tr:last-child td {
+      border-bottom: none;
+    }
 
-      .header-meta {
-        font-size: 14px;
-        color: var(--text-dim);
-        font-family: 'DM Mono', monospace;
-      }
+    .perm-table td:first-child {
+      font-family: 'DM Mono', monospace;
+      font-size: 13px;
+      color: var(--accent2);
+      white-space: nowrap;
+    }
 
-      /* Zero collection banner */
-      .zero-banner {
-        background: linear-gradient(135deg, rgba(78, 205, 196, 0.08), rgba(108, 99, 255, 0.08));
-        border: 1px solid rgba(78, 205, 196, 0.2);
-        border-radius: var(--radius);
-        padding: 24px 28px;
-        margin-bottom: 48px;
-        display: flex;
-        align-items: flex-start;
-        gap: 16px;
-        animation: fadeUp 0.6s 0.1s ease both;
-      }
+    /* No data list */
+    .no-data-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 16px;
+    }
 
-      .zero-banner .icon {
-        font-size: 28px;
-        flex-shrink: 0;
-        margin-top: 2px;
-      }
-
-      .zero-banner strong {
-        display: block;
-        color: var(--accent2);
-        font-size: 15px;
-        font-weight: 600;
-        margin-bottom: 4px;
-      }
-
-      .zero-banner p {
-        color: var(--text-muted);
-        font-size: 14px;
-        line-height: 1.6;
-      }
-
-      /* Sections */
-      .section {
-        margin-bottom: 48px;
-        animation: fadeUp 0.6s ease both;
-      }
-
-      .section:nth-child(2) {
-        animation-delay: 0.15s;
-      }
-
-      .section:nth-child(3) {
-        animation-delay: 0.2s;
-      }
-
-      .section:nth-child(4) {
-        animation-delay: 0.25s;
-      }
-
-      .section:nth-child(5) {
-        animation-delay: 0.3s;
-      }
-
-      .section:nth-child(6) {
-        animation-delay: 0.35s;
-      }
-
-      .section:nth-child(7) {
-        animation-delay: 0.4s;
-      }
-
-      @keyframes fadeUp {
-        from {
-          opacity: 0;
-          transform: translateY(20px);
-        }
-
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-
-      .section-label {
-        font-family: 'DM Mono', monospace;
-        font-size: 11px;
-        font-weight: 500;
-        color: var(--accent);
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        margin-bottom: 10px;
-      }
-
-      h2 {
-        font-size: 22px;
-        font-weight: 600;
-        letter-spacing: -0.5px;
-        color: var(--text);
-        margin-bottom: 16px;
-      }
-
-      p {
-        color: var(--text-muted);
-        font-size: 15px;
-        line-height: 1.8;
-      }
-
-      p+p {
-        margin-top: 12px;
-      }
-
-      /* Card */
-      .card {
-        background: var(--surface);
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        padding: 24px 28px;
-        margin-top: 16px;
-      }
-
-      /* Permission table */
-      .perm-table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 16px;
-        font-size: 14px;
-      }
-
-      .perm-table thead tr {
-        border-bottom: 1px solid var(--border);
-      }
-
-      .perm-table th {
-        text-align: left;
-        padding: 10px 16px;
-        color: var(--text-dim);
-        font-weight: 500;
-        font-family: 'DM Mono', monospace;
-        font-size: 12px;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-      }
-
-      .perm-table td {
-        padding: 14px 16px;
-        color: var(--text-muted);
-        border-bottom: 1px solid rgba(42, 42, 61, 0.5);
-        vertical-align: top;
-      }
-
-      .perm-table tr:last-child td {
-        border-bottom: none;
-      }
-
-      .perm-table td:first-child {
-        font-family: 'DM Mono', monospace;
-        font-size: 13px;
-        color: var(--accent2);
-        white-space: nowrap;
-      }
-
-      /* No data list */
+    @media (max-width: 520px) {
       .no-data-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-        margin-top: 16px;
+        grid-template-columns: 1fr;
       }
+    }
 
-      @media (max-width: 520px) {
-        .no-data-grid {
-          grid-template-columns: 1fr;
-        }
-      }
+    .no-data-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 14px;
+      font-size: 14px;
+      color: var(--text-muted);
+    }
 
-      .no-data-item {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        background: var(--surface);
-        border: 1px solid var(--border);
-        border-radius: 8px;
-        padding: 12px 14px;
-        font-size: 14px;
-        color: var(--text-muted);
-      }
+    .no-data-item .x {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: rgba(255, 80, 80, 0.12);
+      border: 1px solid rgba(255, 80, 80, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      color: #ff5050;
+      flex-shrink: 0;
+    }
 
-      .no-data-item .x {
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        background: rgba(255, 80, 80, 0.12);
-        border: 1px solid rgba(255, 80, 80, 0.2);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 11px;
-        color: #ff5050;
-        flex-shrink: 0;
-      }
+    /* Third party list */
+    .third-party-list {
+      list-style: none;
+      margin-top: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
 
-      /* Third party list */
-      .third-party-list {
-        list-style: none;
-        margin-top: 16px;
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-      }
+    .third-party-list li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--text-muted);
+    }
 
-      .third-party-list li {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-size: 14px;
-        color: var(--text-muted);
-      }
+    .third-party-list li::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--text-dim);
+      flex-shrink: 0;
+    }
 
-      .third-party-list li::before {
-        content: '';
-        width: 6px;
-        height: 6px;
-        border-radius: 50%;
-        background: var(--text-dim);
-        flex-shrink: 0;
-      }
+    .check {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: rgba(78, 205, 196, 0.12);
+      border: 1px solid rgba(78, 205, 196, 0.25);
+      color: var(--accent2);
+      font-size: 11px;
+      flex-shrink: 0;
+    }
 
-      .check {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        background: rgba(78, 205, 196, 0.12);
-        border: 1px solid rgba(78, 205, 196, 0.25);
-        color: var(--accent2);
-        font-size: 11px;
-        flex-shrink: 0;
-      }
+    /* Highlight box */
+    .highlight {
+      background: rgba(108, 99, 255, 0.06);
+      border: 1px solid rgba(108, 99, 255, 0.15);
+      border-left: 3px solid var(--accent);
+      border-radius: 0 8px 8px 0;
+      padding: 16px 20px;
+      margin-top: 16px;
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.7;
+    }
 
-      /* Highlight box */
-      .highlight {
-        background: rgba(108, 99, 255, 0.06);
-        border: 1px solid rgba(108, 99, 255, 0.15);
-        border-left: 3px solid var(--accent);
-        border-radius: 0 8px 8px 0;
-        padding: 16px 20px;
-        margin-top: 16px;
-        font-size: 14px;
-        color: var(--text-muted);
-        line-height: 1.7;
-      }
+    /* Contact */
+    .contact-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px;
+      margin-top: 16px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
 
-      /* Contact */
-      .contact-card {
-        background: var(--surface);
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        padding: 28px;
-        margin-top: 16px;
-        display: flex;
-        align-items: center;
-        gap: 20px;
-      }
+    .contact-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: rgba(108, 99, 255, 0.12);
+      border: 1px solid rgba(108, 99, 255, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      flex-shrink: 0;
+    }
 
-      .contact-icon {
-        width: 48px;
-        height: 48px;
-        border-radius: 12px;
-        background: rgba(108, 99, 255, 0.12);
-        border: 1px solid rgba(108, 99, 255, 0.2);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 22px;
-        flex-shrink: 0;
-      }
+    .contact-card a {
+      color: var(--accent);
+      text-decoration: none;
+      font-family: 'DM Mono', monospace;
+      font-size: 14px;
+    }
 
-      .contact-card a {
-        color: var(--accent);
-        text-decoration: none;
-        font-family: 'DM Mono', monospace;
-        font-size: 14px;
-      }
+    .contact-card a:hover {
+      text-decoration: underline;
+    }
 
-      .contact-card a:hover {
-        text-decoration: underline;
-      }
+    .contact-card .label {
+      font-size: 13px;
+      color: var(--text-dim);
+      margin-bottom: 4px;
+    }
 
-      .contact-card .label {
-        font-size: 13px;
-        color: var(--text-dim);
-        margin-bottom: 4px;
-      }
+    /* Divider */
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 48px 0;
+      opacity: 0.5;
+    }
 
-      /* Divider */
-      .divider {
-        height: 1px;
-        background: var(--border);
-        margin: 48px 0;
-        opacity: 0.5;
-      }
+    /* Footer */
+    .footer {
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-dim);
+      font-family: 'DM Mono', monospace;
+      padding-top: 32px;
+      border-top: 1px solid var(--border);
+    }
 
-      /* Footer */
-      .footer {
-        text-align: center;
-        font-size: 13px;
-        color: var(--text-dim);
-        font-family: 'DM Mono', monospace;
-        padding-top: 32px;
-        border-top: 1px solid var(--border);
-      }
-
-      .footer span {
-        color: var(--accent);
-      }
-    </style>
-  </head>
+    .footer span {
+      color: var(--accent);
+    }
+  </style>
+</head>
 
 <body>
   <div class="wrapper">
