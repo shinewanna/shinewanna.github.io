@@ -5,6 +5,19 @@
     <meta charset="UTF-8">
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
     <meta name="description" content="A brief explanation of Shine's work and project experience along with a demo.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/my-portfolio/">
+
+    <!-- Open Graph / SEO Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Shine Wanna — Mobile Developer Portfolio">
+    <meta property="og:description" content="Flutter & native mobile developer with experience building production apps. View projects, skills, and work experience.">
+    <meta property="og:image" content="asset/Icon-512.png">
+    <meta property="og:url" content="https://shinewanna.github.io/my-portfolio/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Shine Wanna — Mobile Developer Portfolio">
+    <meta name="twitter:description" content="Flutter & native mobile developer with experience building production apps.">
+    <meta name="twitter:image" content="asset/Icon-512.png">
 
     <!-- iOS meta tags & icons -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -32,17 +45,8 @@
             <div class="sk-chase-dot"></div>
         </div>
     </div>
-    <!-- This script installs service_worker.js to provide PWA functionality to
-       application. For more information, see:
-       https://developers.google.com/web/fundamentals/primers/service-workers -->
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', function() {
-                navigator.serviceWorker.register('flutter_service_worker.js?v=4069443896');
-            });
-        }
-    </script>
-    <script src="main.dart.js" type="application/javascript"></script>
+
+    <script src="flutter_bootstrap.js" async></script>
 </body>
 
 </html>
